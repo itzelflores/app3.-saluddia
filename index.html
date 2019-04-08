@@ -1,0 +1,245 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title> Día Mundial de la Salud </title>
+<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+<!--grupo CSS-->
+<link rel = "stylesheet" href="css/tema-app3.min.css"/>
+<link rel = "stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel = "stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo Java Script-->
+<script src = "js/jquery-1.11.2.min.js"></script>
+<script src = "js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"></script>-->
+<script src = "phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/dia.jpg')">
+<div data-role= "page" id = "Principal" data-theme = "a">
+<div data-role= "header" data-add-back-btn = "true" data-back-btn-text = "Regresar" data-back-btn-theme = "a">
+<h1> Información del Día Mundial de la Salud  </h1>
+</div>
+<div data-role = "main" class = "ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Infografía </h1>
+<div>
+<br>
+<img src="imagenes/infografia.jpg" width="700" height="1000"> </div>
+</div>
+</div>
+
+<div>
+<ul data-role = "listview" data-theme = "a" class = "ui-listview ui-group-theme-a">
+<li class = "ui-first-child ui-last-child">
+<a href = "#Pagina1" class = "ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>1.-¿Cuándo se celebra y por qué? </h2>
+</a>
+</li>
+<li class = "ui-first-child ui-last-child">
+<a href = "#Pagina2" class = "ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>2.-¿Qué se trata de conseguir con la campaña? </h2>
+</a>
+</li>
+<li class = "ui-first-child ui-last-child">
+<a href = "#Pagina3" class = "ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> 3.-¿Qué es la OMS? </h2>
+</a>
+</li>
+<li class = "ui-first-child ui-last-child">
+<a href = "#Pagina4" class = "ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> 4.-Cobertura Sanitaria Universal </h2>
+</a>
+</li>
+<li class = "ui-first-child ui-last-child">
+<a href = "#Pagina5" class = "ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> 5.-¿Qué es lo que la cobertura sanitaria universal no incluye? </h2>
+</a>
+</li>
+</ul>
+<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/campaa.jpg" alt="campaña" title="campaña" id="wows1_0"/></li>
+		<li><img src="data1/images/coberturasanitaria.jpg" alt="coberturasanitaria" title="coberturasanitaria" id="wows1_1"/></li>
+		<li><img src="data1/images/coberturasanitaria2.jpg" alt="coberturasanitaria2" title="coberturasanitaria2" id="wows1_2"/></li>
+		<li><img src="data1/images/dia.jpg" alt="dia" title="dia" id="wows1_3"/></li>
+		<li><img src="data1/images/dia2.jpg" alt="dia2" title="dia2" id="wows1_4"/></li>
+		<li><img src="data1/images/sanidad.jpg" alt="sanidad" title="sanidad" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/sanidad2.jpg" alt="bootstrap slider" title="sanidad2" id="wows1_6"/></a></li>
+		<li><img src="data1/images/omg2.png" alt="omg2" title="omg2" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="campaña"><span><img src="data1/tooltips/campaa.jpg" alt="campaña"/>1</span></a>
+		<a href="#" title="coberturasanitaria"><span><img src="data1/tooltips/coberturasanitaria.jpg" alt="coberturasanitaria"/>2</span></a>
+		<a href="#" title="coberturasanitaria2"><span><img src="data1/tooltips/coberturasanitaria2.jpg" alt="coberturasanitaria2"/>3</span></a>
+		<a href="#" title="dia"><span><img src="data1/tooltips/dia.jpg" alt="dia"/>4</span></a>
+		<a href="#" title="dia2"><span><img src="data1/tooltips/dia2.jpg" alt="dia2"/>5</span></a>
+		<a href="#" title="sanidad"><span><img src="data1/tooltips/sanidad.jpg" alt="sanidad"/>6</span></a>
+		<a href="#" title="sanidad2"><span><img src="data1/tooltips/sanidad2.jpg" alt="sanidad2"/>7</span></a>
+		<a href="#" title="omg2"><span><img src="data1/tooltips/omg2.png" alt="omg2"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">bootstrap image slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+<div data-role = "footer" align="center" data-theme= "a" data-position="fixed">
+<div>
+<img src= "imagenes/persona_azul.png" width="46" height="46" alt="pie">
+</div>
+<div>
+<h4> Aplicación 3 Esp Día Mundial de la Salud</h4>
+<h4> Flores Aracen Rosita Itzel</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>¿Cuándo se celebra y por qué?  </h1>
+	</div>
+	<div data-role="content" align="center">
+    
+    <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/dia.jpg',1)"><img src="imagenes/dia2.jpg" width="80%" height="80%" id="Image12"></a> 
+    <br>
+         <p>El Día Mundial de la Salud (DMS), que se celebra el 7 de abril, este año marca el final de las celebraciones del 70 aniversario de la Organización Mundial de la Salud (OMS).Se conmemoró por primera vez el 22 de julio de 1949, con la finalidad de celebrar la constitución de la Organización .Sin embargo, se cambió la fecha para el 7 de abril, pensando en incentivar la participación de los estudiantes, puesto que en Julio la mayoría de las instituciones educativas están de vacaciones
+En la Región de las Américas, estas celebraciones se han enfocado en torno a la salud universal, bajo el lema Salud universal: para todos y todas, en todas partes.
+La conmemoración de este día se debe a la necesidad de pedir a los líderes mundiales que se comprometan a adoptar medidas correctas para promover la salud de todas las personas.</p>
+		</div>
+	</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">  
+</div>
+<h4> Aplicación 3 Esp Día Mundial de la Salud</h4>
+<h4>Flores Aracen Rosita Itzel</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>¿Qué se trata de conseguir con la campaña? </h1>
+	</div>
+	<div data-role="content" align="center">
+    <div>
+    <img src="imagenes/campana.jpg" width="70%" height="70%">
+    <br>
+    <p>Las campañas mundiales de salud pública son una gran oportunidad para aumentar la concienciación y los conocimientos sobre los problemas de salud y para movilizar apoyos en todos los ámbitos, desde el local hasta el internacional.
+A lo largo del año hay muchos días mundiales sobre problemas de salud o afecciones concretas: de la “A” de Alzheimer a la “Z” de zoonosis.Las autoridades promueven campañas de prevención y garantizan el acceso democrático y masivo a los centros de atención. De tal manera que una campaña de slaud tiene como finalidad de prevenis a la población de alguna enfermadad que puede llegar a adquirir el individuo a lo lago de su vida. Gracias a las campañas, la población logra entender mejor en qué consiste alguna enfermedad, a quién debe recurrir en caso de presentar síntomas y los posibles tratamientos que se deben consumir para tratar la enfermedad y evitar su evolución.</p>
+    <img src="imagenes/campana2.jpg" width="70%" height="70%"> 
+    <br>
+        <a href="https://www.who.int/es/news-room/events/detail/2019/05/31/default-calendar/world-no-tobacco-day" target="_self">¿Quieres conocer la campaña de este año?</a>
+    </div>
+	</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src= "imagenes/persona_azul.png" width="46" height="46" alt="pie">
+</div>
+<h4> Aplicación 3 Esp Día Mundial de la Salud</h4>
+<h4>Flores Aracen Rosita Itzel</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>¿Qué es la OMS? </h1>
+	</div>
+	<div data-role="content" align="center">
+    <div>
+     <img src="imagenes/oms.jpg" width="40%" height="40%" alt="oms">
+     <br>
+     <p>La Organización Mundial de la Salud (OMS, en inglés WHO - World Health Organization) es un organismo especializado de las Naciones Unidas fundado en 1948, cuyo objetivo es alcanzar para todos los pueblos el máximo grado de salud, definida en su Constitución como un estado de completo bienestar físico, mental y social, y no solamente como la ausencia de afecciones o enfermedades.La OMS está integrada por 194 Estados Miembros y 2 Miembros Asociados, que se reúnen cada año en Ginebra en el marco de la Asamblea Mundial de la Salud, respaldada a su vez por 34 miembros del Consejo Ejecutivo.El principal objetivo de la OMS, que fue distinguida con el Premio Príncipe de Asturias de Cooperación Internacional, es que todos los pueblos del planeta gocen del grado máximo de salud que se pueda alcanzar.Seis oficinas regionales que gozan de una autonomía bastante amplia componen la OMS: la EMRO (Oficina Regional para el Mediterráneo Oriental), la Organización Panamericana de la Salud (Oficina Regional para las Américas), la AFRO (Oficina Regional para África), la WPRO (Oficina Regional para el Pacífico Occidental), la EURO (Oficina Regional para Europa) y la SEARO (Oficina Regional para Asia Sur-Oriental) Para la OMS, la salud puede definirse como el estado completo de bienestar físico, mental y social.
+     </p>
+     <img src="imagenes/omg2.png" width="70%" height="70%"> 
+     </div>
+	</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src= "imagenes/persona_azul.png" width="46" height="46" alt="pie">
+</div>
+<h4> Aplicación 3 Esp Día Mundial de la Salud</h4>
+<h4>Flores Aracen Rosita Itzel</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>Cobertura Sanitaria Universal </h1>
+	</div>
+	<div data-role="content" align="center">
+    <div>
+      <img src="imagenes/coberturasanitaria.jpg" width="70%" height="70%">
+      <br>
+      <p> La cobertura sanitaria universal pretende que todas las comunidades del mundo reciban los servicios de salud que necesitan sin tener que pasar penurias financieras para pagarlos. Abarca toda la gama de servicios de salud escenciales de calidad.Permite a todos acceder a servicios de salud esto protege a las personas de las consecuencias que podría tener el adquirir una enfermedad de por vida.Lograr esta cobertura universal, es una de las metas que se fijaron los países que adoptaron los Objetivos de Desarrollo Sostenible en 2015.Los países que progresan en el logro de la cobertura de salud universal también avanzarán hacia las demás metas relacionadas con la salud y los demás objetivos.</p>
+      <img src="imagenes/coberturasanitaria2.jpg" width="70%" height="70%">
+      </div>
+    	</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src= "imagenes/persona_azul.png" width="46" height="46" alt="pie">
+</div>
+<h4> Aplicación 3 Esp Día Mundial de la Salud</h4>
+<h4>Flores Aracen Rosita Itzel</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>¿Qué es lo que la cobertura sanitaria universal no incluye? </h1>
+	</div>
+	<div data-role="content" align="center">
+    <div>
+    <img src="imagenes/sanidad.jpg" width="51%" height="41%" alt="sanidad">
+    <br>
+    <p>La cobertura de slaud universal, no implica la cobertura gratuita de todas las intervenciones sanitariaa posibles, ya que sería una gran pérdida económica brindar este beneficio.No abarca sólo el financiamiento de la salud sino también brinda instalaciones sanitarias, sistemas de prestación, campañas para la población además de extender la cobertura para que toda la población cuente con atención para su salud, es decir, la planeación de estrategias para mejorar la cobertura a nivel mundial, ya que muchos países y/o regiones en condiciones de pobreza requieren la atención.</p>
+    
+    <img src="imagenes/sanidad2.jpg" width="700" height="500"> 
+    <br>
+            <a href=https://www.who.int/es/campaigns/world-health-day/world-health-day-2019 target="_self">Para saber más, visita:</a>
+    </div>
+	</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src= "imagenes/persona_azul.png" width="46" height="46" alt="pie">
+</div>
+
+<h4> Aplicación 3 Esp Día Mundial de la Salud</h4>
+<h4>Flores Aracen Rosita Itzel</h4>
+</div>
+</div>
+
+</body>
+</html>
